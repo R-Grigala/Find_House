@@ -94,8 +94,6 @@ body {
     border-color: #29B24E !important;
 }
 
-
-
 /* --- HERO --- */
 .hero-section {
     min-height: 450px;
@@ -183,7 +181,6 @@ body {
     margin: 0.25rem 0; /* spacing for smaller screens */
 }
 
-/* Copyright */
 .footer-copy {
     text-align: center;
     padding-top: 10px;
