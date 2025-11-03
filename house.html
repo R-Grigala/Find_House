@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <link rel="shortcut icon" href="src/images/logo.svg" type="image-logo" />
+    <title>House</title>
 
     <!-- SEO Meta Tags -->
     <meta name="description" content="Find houses, apartments, land, and commercial properties for rent or sale across Kenya. Browse trending property listings and find your perfect home easily.">
@@ -37,7 +38,7 @@
     />
 
     <!-- Favicon -->
-    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="icon" href="src/images/logo.svg" type="image/x-icon">
 
     <!-- Fonts & CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -50,87 +51,81 @@
 
 <body>
 
-<div class="page-container">
+<div class="main-container">
+    <header class="d-flex align-items-center justify-content-between p-3 shadow-sm header-custom">
+        <div class="logo">
+            <a href="index.html"><img src="src/images/logo.svg" alt="Logo" height="32"></a>
+        </div>
+        <nav class="d-none d-md-flex justify-content-center flex-grow-1">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link fw-semibold" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="#">Discover</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="#">Contact us</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="#">Sign in</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="#" class="btn btn-custom fw-bold">Sell Something</a>
+        </div>
+    </header>
 
-        <!-- HEADER -->
-<header class="d-flex align-items-center justify-content-between p-3 shadow-sm header-custom">
-    <div class="logo">
-        <a href="https://r-grigala.github.io/Find_House/"><img src="img/logo.png" alt="Roberts Logo" height="32"></a>
-    </div>
-    <nav class="d-none d-md-flex justify-content-center flex-grow-1">
-        <ul class="nav">
-            <li class="nav-item"><a class="nav-link fw-semibold" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link fw-semibold" href="#trending-section">Discover</a></li>
-            <li class="nav-item"><a class="nav-link fw-semibold" href="#">Contact us</a></li>
-            <li class="nav-item"><a class="nav-link fw-semibold" href="#">Sign in</a></li>
-        </ul>
-    </nav>
-    <div>
-        <a href="#" class="btn btn-custom fw-bold">Sell Something</a>
-    </div>
-</header>
+    <!-- Home section -->
+    <div class="container-fluid py-5">
+        <div class="row g-4 align-items-start justify-content-center ">
 
-<!-- Home section -->
-<div class="container-fluid py-5">
-  <div class="row g-4 align-items-start justify-content-center ">
-    
-    <!-- Left: Property Image -->
-    <div class="col-lg-6 col-md-12">
-      <img src="img/home1.jpg" class="img-fluid rounded shadow-sm" alt="Property Image">
-    </div>
+        <div class="col-lg-6 col-md-12">
+            <img src="src/images/1_house.jpg" class="img-fluid rounded shadow-sm" alt="Property Image">
+        </div>
 
-    <!-- Right: Property Details -->
-    <div class="col-lg-6 col-md-12">
-    <div class="property-details-card p-4 shadow-sm rounded bg-white">
+        <div class="col-lg-6 col-md-12">
+            <div class="property-details-card p-4 shadow-sm rounded bg-white">
         
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <span class="badge text-white bg-success py-1 px-2 fw-bold" style="font-size: 0.9rem;">VIP TOP+</span>
-                 <span class="d-none d-sm-inline"  style="color: #6c757d;" >Posted 1 hour ago</span>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="badge text-white bg-success py-1 px-2 fw-bold" style="font-size: 0.9rem;">VIP TOP+</span>
+                <span class="d-none d-sm-inline"  style="color: #6c757d;" >Posted 1 hour ago</span>
                 <span class="text-nowrap" style="color: #6c757d;">
                     <i class="bi bi-eye"></i> 842 view
                 </span>
-         </div>
+            </div>
 
-        <h2 class="fw-normal mb-1" style="font-size: 1.8rem; color: #212529;">2bdrm Apartment in Yatch, Thindigua/Kasarini for Rent</h2>
-        <p class="mb-3" style="font-size: 0.9rem; color: #6c757d;">Kiambu, Kiambu / Thindigua/Kasarini</p>
-        
-        <p class="mb-4" style="color: #495057;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet 
-            luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim 
-            praesent elementum facilisis leo, vel fringilla est ullamcorper eget
-        </p>
-
-        <div class="d-flex flex-wrap gap-3 py-3 border-top border-bottom mb-4">
-            <div class="text-dark fw-normal" style="font-size: 0.95rem;">Apartament</div>
-            <div class="text-dark fw-normal" style="font-size: 0.95rem;">3 bedroom</div>
-            <div class="text-dark fw-normal" style="font-size: 0.95rem;">2 bathroom</div>
-            <div class="text-dark fw-normal" style="font-size: 0.95rem;">Parking</div>
-        </div>
-
-        <div class="row row-cols-3 mb-4 g-4" style="font-size: 0.9rem;">
+            <h2 class="fw-normal mb-1" style="font-size: 1.8rem; color: #212529;">2bdrm Apartment in Yatch, Thindigua/Kasarini for Rent</h2>
+            <p class="mb-3" style="font-size: 0.9rem; color: #6c757d;">Kiambu, Kiambu / Thindigua/Kasarini</p>
             
-            <div class="col">
-                <div class="text-muted fw-normal mb-1">Property address</div>
-                <div class="text-dark mb-3">mombasa rd</div>
+            <p class="mb-4" style="color: #495057;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet 
+                luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim 
+                praesent elementum facilisis leo, vel fringilla est ullamcorper eget
+            </p>
 
-                <div class="text-muted fw-normal mb-1">Condition</div>
-                <div class="text-dark">Fairly Used</div>
-                
+            <div class="d-flex flex-wrap gap-3 py-3 border-top border-bottom mb-4">
+                <div class="text-dark fw-normal" style="font-size: 0.95rem;">Apartament</div>
+                <div class="text-dark fw-normal" style="font-size: 0.95rem;">3 bedroom</div>
+                <div class="text-dark fw-normal" style="font-size: 0.95rem;">2 bathroom</div>
+                <div class="text-dark fw-normal" style="font-size: 0.95rem;">Parking</div>
             </div>
 
-            <div class="col">
-                <div class="text-muted fw-normal mb-1">Facilities</div>
-                <div class="text-dark">
-                    24-hour Electricity,<br>
-                    Dining Area,<br>
-                    En Suite,<br>
-                    Hot Water,<br>
-                    Kitchen Cabinets,<br>
-                    Kitchen Shelf,<br>
-                    Microwave,<br>
-                    Refrigerator
+            <div class="row row-cols-3 mb-4 g-4" style="font-size: 0.9rem;">      
+                <div class="col">
+                    <div class="text-muted fw-normal mb-1">Property address</div>
+                    <div class="text-dark mb-3">mombasa rd</div>
+
+                    <div class="text-muted fw-normal mb-1">Condition</div>
+                    <div class="text-dark">Fairly Used</div>
+                    
                 </div>
-            </div>
+                <div class="col">
+                    <div class="text-muted fw-normal mb-1">Facilities</div>
+                    <div class="text-dark">
+                        24-hour Electricity,<br>
+                        Dining Area,<br>
+                        En Suite,<br>
+                        Hot Water,<br>
+                        Kitchen Cabinets,<br>
+                        Kitchen Shelf,<br>
+                        Microwave,<br>
+                        Refrigerator
+                    </div>
+                </div>
             
             <div class="col">
                 <div class="text-muted fw-normal mb-1">Estate name</div>
@@ -162,20 +157,16 @@
   </div>
 </div>
 
-
-
-<!-- TRENDING ADS -->
- <section class="container-fluid py-5 trending-section" id="trending-section">
+<section class="container-fluid py-5 trending-section" id="trending-section">
     <h3 class="mb-4 fw-bold">Similar ads</h3>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
-
-        <!-- PROPERTY CARD 1 -->
+        <!-- CARD 1 -->
         <div class="col">
-            <a href="home.html" class="text-decoration-none text-dark">
+            <a href="house.html" class="text-decoration-none text-dark">
                 <div class="card property-card h-100 shadow-sm">
                     <div class="card-img-wrapper position-relative">
                         <span class="badge vip-badge position-absolute">VIP TOP+</span>
-                        <img src="img/home1.jpg" class="card-img-top" alt="Property 1">
+                        <img src="src/images/1_house.jpg" class="card-img-top" alt="Property 1">
                         <div class="price-overlay position-absolute">$1450 / month</div>
                     </div>
                     <div class="card-body p-3">
@@ -191,13 +182,13 @@
             </a>
         </div>
 
-        <!-- PROPERTY CARD 2 -->
+        <!-- CARD 2 -->
         <div class="col">
-            <a href="home.html" class="text-decoration-none text-dark">
+            <a href="house.html" class="text-decoration-none text-dark">
                 <div class="card property-card h-100 shadow-sm">
                     <div class="card-img-wrapper position-relative">
                         <span class="badge vip-badge position-absolute">VIP TOP+</span>
-                        <img src="img/home2.jpg" class="card-img-top" alt="Property 2">
+                        <img src="src/images/2_house.jpg" class="card-img-top" alt="Property 2">
                         <div class="price-overlay position-absolute">$1450 / month</div>
                     </div>
                     <div class="card-body p-3">
@@ -213,13 +204,13 @@
             </a>
         </div>
 
-        <!-- PROPERTY CARD 3 -->
+        <!-- CARD 3 -->
         <div class="col">
-            <a href="home.html" class="text-decoration-none text-dark">
+            <a href="house.html" class="text-decoration-none text-dark">
                 <div class="card property-card h-100 shadow-sm">
                     <div class="card-img-wrapper position-relative">
                         <span class="badge vip-badge position-absolute">VIP TOP+</span>
-                        <img src="img/home3.jpg" class="card-img-top" alt="Property 3">
+                        <img src="src/images/3_house.jpg" class="card-img-top" alt="Property 3">
                         <div class="price-overlay position-absolute">$1450 / month</div>
                     </div>
                     <div class="card-body p-3">
@@ -235,13 +226,13 @@
             </a>
         </div>
 
-        <!-- PROPERTY CARD 4 -->
+        <!-- CARD 4 -->
         <div class="col">
-            <a href="home.html" class="text-decoration-none text-dark">
+            <a href="house.html" class="text-decoration-none text-dark">
                 <div class="card property-card h-100 shadow-sm">
                     <div class="card-img-wrapper position-relative">
                         <span class="badge vip-badge position-absolute">VIP TOP+</span>
-                        <img src="img/home4.jpg" class="card-img-top" alt="Property 4">
+                        <img src="src/images/4_house.jpg" class="card-img-top" alt="Property 4">
                         <div class="price-overlay position-absolute">$1450 / month</div>
                     </div>
                     <div class="card-body p-3">
@@ -256,14 +247,9 @@
                 </div>
             </a>
         </div>
-
-       
-
     </div>
 </section>
-
         <!-- FOOTER -->
-
         <footer class="footer-custom py-4">
             <div class="container d-flex justify-content-between align-items-center flex-wrap">
                 <!-- Navigation -->
@@ -273,31 +259,23 @@
                     <a href="#">Contact us</a> 
                     <a href="#">Sign in</a>
                 </div>
-
                 <!-- Email -->
                 <div class="footer-support mb-2 mb-md-0">
                     <a href="mailto:Support@Roberts.com">Support@Roberts.com</a>
                 </div>
-
                 <!-- Socials -->
                 <div class="footer-socials mb-2 mb-md-0">
                     <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a> 
                     <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>  
                     <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a> 
                     <a href="https://www.x.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+                </div>
             </div>
 
-            </div>
-
-            <!-- Copyright -->
             <div class="footer-copy text-center mt-3">
                 <span class="small text-white">© 2022 Robert.co.ke Gibraltar</span>
             </div>
         </footer>
-
-    
-</div>
-
-
+    </div>
 </body>
 </html>
